@@ -1,0 +1,5 @@
+User\ChangeParamsUserTest.class
+User\LoginUserTest.class
+User\CreateUserTest.class
+Order\CreateOrderTest.class
+Order\GetOrdersTest.class

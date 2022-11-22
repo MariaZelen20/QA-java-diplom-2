@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: Order.CreateOrderTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 8.219 s <<< FAILURE! - in Order.CreateOrderTest
+creatingOrderWithWrongHashes(Order.CreateOrderTest)  Time elapsed: 7.021 s  <<< ERROR!
+java.lang.ClassCastException: class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.String (io.restassured.path.xml.XmlPath is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+	at Order.CreateOrderTest.setUp(CreateOrderTest.java:30)
+
+creatingOrderWithWrongHashes(Order.CreateOrderTest)  Time elapsed: 7.021 s  <<< ERROR!
+java.lang.IllegalArgumentException: Header value cannot be null
+	at Order.CreateOrderTest.tearDown(CreateOrderTest.java:37)
+
+creatingOrderWithAuth(Order.CreateOrderTest)  Time elapsed: 0.255 s  <<< ERROR!
+java.lang.ClassCastException: class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.String (io.restassured.path.xml.XmlPath is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+	at Order.CreateOrderTest.setUp(CreateOrderTest.java:30)
+
+creatingOrderWithAuth(Order.CreateOrderTest)  Time elapsed: 0.255 s  <<< ERROR!
+java.lang.IllegalArgumentException: Header value cannot be null
+	at Order.CreateOrderTest.tearDown(CreateOrderTest.java:37)
+
+creatingOrderWithoutAuth(Order.CreateOrderTest)  Time elapsed: 0.226 s  <<< ERROR!
+java.lang.ClassCastException: class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.String (io.restassured.path.xml.XmlPath is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+	at Order.CreateOrderTest.setUp(CreateOrderTest.java:30)
+
+creatingOrderWithoutAuth(Order.CreateOrderTest)  Time elapsed: 0.226 s  <<< ERROR!
+java.lang.IllegalArgumentException: Header value cannot be null
+	at Order.CreateOrderTest.tearDown(CreateOrderTest.java:37)
+
+creatingOrderWithoutIngredient(Order.CreateOrderTest)  Time elapsed: 0.247 s  <<< ERROR!
+java.lang.ClassCastException: class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.String (io.restassured.path.xml.XmlPath is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+	at Order.CreateOrderTest.setUp(CreateOrderTest.java:30)
+
+creatingOrderWithoutIngredient(Order.CreateOrderTest)  Time elapsed: 0.247 s  <<< ERROR!
+java.lang.IllegalArgumentException: Header value cannot be null
+	at Order.CreateOrderTest.tearDown(CreateOrderTest.java:37)
+
