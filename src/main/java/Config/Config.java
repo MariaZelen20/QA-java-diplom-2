@@ -5,7 +5,7 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 
 public class Config {
-    private static final String BASE_URL = "https://stellarburgers.nomoreparties.site/api/";
+    private static final String BASE_URL = "https://stellarburgers.nomoreparties.site/";
 
 
     public static RequestSpecification getDefaultRequestSpec() {
